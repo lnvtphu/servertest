@@ -1,0 +1,28 @@
+{
+  "name": "servertraintickets",
+  "version": "1.0.0",
+  "description": "Server train tickets",
+  "main": "server.js",
+  "scripts": {
+    "test": "nottest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studyandstudy/servertraintickets.git"
+  },
+  "keywords": [
+    "traintickets"
+  ],
+  "author": "web-intern-mar-2016",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studyandstudy/servertraintickets/issues"
+  },
+  "homepage": "https://github.com/studyandstudy/servertraintickets#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.10"
+  }
+}
